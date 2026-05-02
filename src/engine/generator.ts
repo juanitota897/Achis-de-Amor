@@ -17,7 +17,6 @@ import type {
   ShapeParams,
   MaterialSpec,
   Language,
-  EndCapStyle,
   ColorSpec,
 } from './types';
 import { buildShape, type ShapeRound, type ShapeOutput, SHAPE_LABELS } from './shapes';

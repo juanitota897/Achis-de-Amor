@@ -11,7 +11,6 @@
  */
 
 import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
 import { ALL_YARN_WEIGHTS, HOOK_SIZES, findYarnByName, type MaterialSpec } from '@/engine';
 import type { Language } from '@/engine/types';
 

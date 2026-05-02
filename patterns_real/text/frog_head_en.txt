@@ -1,0 +1,25 @@
+# Sapo Fredy — cabeza
+# Designer: Fredy the Frog
+# Lenguaje: en
+# Materials: aguja 3mm, hilo CYC 3
+
+# Fredy the Frog — Head
+
+HEAD
+
+Rnd 1: 6 sc in MR [6]
+Rnd 2: 6 inc [12]
+Rnd 3: (1 sc, inc) * 6 [18]
+Rnd 4: (2 sc, inc) * 6 [24]
+Rnd 5: (3 sc, inc) * 6 [30]
+Rnd 6: (4 sc, inc) * 6 [36]
+Rnd 7: (5 sc, inc) * 6 [42]
+Rnd 8: (6 sc, inc) * 6 [48]
+Rnds 9-13: 48 sc [48]
+Rnd 14: (6 sc, dec) * 6 [42]
+Rnd 15: (5 sc, dec) * 6 [36]
+Rnd 16: (4 sc, dec) * 6 [30]
+Rnd 17: (3 sc, dec) * 6 [24]
+Rnd 18: (2 sc, dec) * 6 [18]
+Rnd 19: (1 sc, dec) * 6 [12]
+Rnd 20: 6 dec [6]

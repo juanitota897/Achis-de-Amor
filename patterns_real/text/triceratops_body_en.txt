@@ -1,0 +1,42 @@
+# Mini Triceratops — base
+# Designer: Ludasamigurumi
+# Lenguaje: en
+# Materials: aguja 1.5mm, hilo CYC 1
+
+# Mini Triceratops — Base
+
+BASE
+
+Round 1: 6 sc in MR [6]
+Round 2: 6 sc [6]
+Round 3: 6 inc [12]
+Rounds 4-5: 12 sc [12]
+Round 6: (1 sc, inc) * 6 [18]
+Rounds 7-9: 18 sc [18]
+Round 10: (2 sc, inc) * 6 [24]
+Rounds 11-14: 24 sc [24]
+Round 15: (3 sc, inc) * 6 [30]
+Rounds 16-20: 30 sc [30]
+Round 21: (4 sc, inc) * 6 [36]
+Rounds 22-27: 36 sc [36]
+Round 28: (5 sc, inc) * 6 [42]
+Rounds 29-33: 42 sc [42]
+Round 34: 3 sc, inc, (6 sc, inc) * 5, 3 sc [48]
+Round 35: (7 sc, inc) * 6 [54]
+Round 36: 4 sc, inc, (8 sc, inc) * 5, 4 sc [60]
+Round 37: (9 sc, inc) * 6 [66]
+Round 38: 5 sc, inc, (10 sc, inc) * 5, 5 sc [72]
+Round 39: (11 sc, inc) * 6 [78]
+Rounds 40-44: 78 sc [78]
+Round 45: (11 sc, dec) * 6 [72]
+Round 46: 5 sc, dec, (10 sc, dec) * 5, 5 sc [66]
+Round 47: (9 sc, dec) * 6 [60]
+Round 48: 4 sc, dec, (8 sc, dec) * 5, 4 sc [54]
+Round 49: (7 sc, dec) * 6 [48]
+Round 50: 3 sc, dec, (6 sc, dec) * 5, 3 sc [42]
+Round 51: 42 sc [42]
+Round 52: (5 sc, dec) * 6 [36]
+Round 53: (4 sc, dec) * 6 [30]
+Round 54: (3 sc, dec) * 6 [24]
+Round 55: (2 sc, dec) * 6 [18]
+Round 56: (1 sc, dec) * 6 [12]

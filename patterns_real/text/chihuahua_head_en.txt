@@ -1,0 +1,26 @@
+# Chihuahua — cabeza
+# Designer: PatchCatCrafts
+# Lenguaje: en
+# Materials: aguja 4mm, hilo CYC 3
+
+# Chihuahua — Head
+
+HEAD
+
+Rnd 1: 6 sc in MR [6]
+Rnd 2: 6 inc [12]
+Rnd 3: (sc, inc) x 6 [18]
+Rnd 4: (sc 2, inc) x 6 [24]
+Rnd 5: (sc 3, inc) x 6 [30]
+Rnd 6: (sc 4, inc) x 6 [36]
+Rnd 7: (sc 5, inc) x 7 [42]
+Rnd 8: (sc 6, inc) x 6 [48]
+Rnd 9: 48 sc [48]
+Rnd 10: 4 sc, inc, (sc 11, inc) x 3, 7 sc [52]
+Rnds 11-16: 52 sc [52]
+Rnd 17: (sc 11, dec) x 4 [48]
+Rnd 18: (sc 6, dec) x 6 [42]
+Rnd 19: (sc 5, dec) x 6 [36]
+Rnd 20: (sc 4, dec) x 6 [30]
+Rnd 21: (sc 3, dec) x 6 [24]
+Rnd 22: (sc 2, dec) x 6 [18]

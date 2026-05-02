@@ -1,0 +1,23 @@
+# Basset Hound — cabeza
+# Designer: Theresa's Crochet Shop
+# Lenguaje: en
+# Materials: aguja 3.75mm, hilo CYC 4
+
+# Barley the Basset Hound — Head
+
+HEAD
+
+Rnd 1: 6 sc in MR [6]
+Rnd 2: 6 inc [12]
+Rnd 3: (1 sc, inc) x 6 [18]
+Rnd 4: (2 sc, inc) x 6 [24]
+Rnd 5: (3 sc, inc) x 6 [30]
+Rnd 6: (4 sc, inc) x 6 [36]
+Rnd 7: (5 sc, inc) x 6 [42]
+Rnds 8-13: 42 sc [42]
+Rnd 14: (5 sc, dec) x 6 [36]
+Rnd 15: (4 sc, dec) x 6 [30]
+Rnd 16: (3 sc, dec) x 6 [24]
+Rnd 17: (2 sc, dec) x 6 [18]
+Rnd 18: (1 sc, dec) x 6 [12]
+Rnd 19: 6 dec [6]

@@ -1,0 +1,37 @@
+# Gansito — cabeza+cuerpo
+# Designer: Olga Lukoshkina
+# Lenguaje: en
+# Materials: aguja 2.25mm, hilo CYC 3
+
+# Crochet Goose — Head + Body (continuous)
+
+HEAD
+
+Rnd 1: 6 sc in magic ring [6]
+Rnd 2: 6 inc [12]
+Rnd 3: (1 sc, inc) * 6 [18]
+Rnd 4: (2 sc, inc) * 6 [24]
+Rnd 5: 24 sc [24]
+Rnd 6: 9 sc, 3 inc, 9 sc, 3 inc [30]
+Rnd 7: 30 sc [30]
+Rnd 8: (1 sc, inc) * 3, 9 sc, (1 sc, inc) * 3, 9 sc [36]
+Rnds 9-11: 36 sc [36]
+Rnd 12: (4 sc, dec) * 6 [30]
+Rnd 13: (3 sc, dec) * 6 [24]
+Rnd 14: (2 sc, dec) * 6 [18]
+Rnd 15: (1 sc, dec) * 6 [12]
+Rnd 16: (4 sc, dec) * 2 [10]
+Rnds 17-22: 10 sc [10]
+Rnd 23: (4 sc, inc) * 2 [12]
+Rnd 24: 12 sc [12]
+Rnd 25: (1 sc, inc) * 6 [18]
+Rnd 26: (2 sc, inc) * 6 [24]
+Rnd 27: 24 sc [24]
+Rnd 28: (3 sc, inc) * 6 [30]
+Rnd 29: (4 sc, inc) * 6 [36]
+Rnds 30-33: 36 sc [36]
+Rnd 34: (4 sc, dec) * 6 [30]
+Rnd 35: (3 sc, dec) * 6 [24]
+Rnd 36: (2 sc, dec) * 6 [18]
+Rnd 37: (1 sc, dec) * 6 [12]
+Rnd 38: 6 dec [6]

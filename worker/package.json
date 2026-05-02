@@ -1,0 +1,16 @@
+{
+  "name": "achis-de-amor-worker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI proxy worker for Achis de Amor (Anthropic + OpenAI)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240925.0",
+    "typescript": "^5.6.3",
+    "wrangler": "^4.87.0"
+  }
+}

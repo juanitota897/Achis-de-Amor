@@ -1,0 +1,25 @@
+# Gatito — cabeza
+# Designer: Denae Mroczek (Ami Amore)
+# Lenguaje: en
+# Materials: aguja 3.5mm, hilo CYC 4
+
+# Kitty — Head
+
+HEAD
+
+Rnd 1: 8 sc in MR [8]
+Rnd 2: 8 inc [16]
+Rnd 3: (1 sc, inc) x 8 [24]
+Rnd 4: (2 sc, inc) x 8 [32]
+Rnd 5: 32 sc [32]
+Rnd 6: (3 sc, inc) x 8 [40]
+Rnd 7: 40 sc [40]
+Rnd 8: (4 sc, inc) x 8 [48]
+Rnd 9: 48 sc [48]
+Rnd 10: (5 sc, inc) x 8 [56]
+Rnds 11-18: 56 sc [56]
+Rnd 19: (3 sc, dec) x 11, sc [45]
+Rnd 20: (2 sc, dec) x 11, sc [34]
+Rnd 21: (1 sc, dec) x 11, sc [23]
+Rnd 22: 11 dec, sc [12]
+Rnd 23: 6 dec [6]

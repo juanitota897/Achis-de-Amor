@@ -1,0 +1,26 @@
+# León Alan — cabeza
+# Designer: El rincón de Ale
+# Lenguaje: es
+# Materials: aguja 2.5mm, hilo CYC 3
+
+# Alan el León — Cabeza
+
+CABEZA
+
+V1: 6 pb en AM (6)
+V2: 6 aum (12)
+V3: (1 aum, 1 pb) x 6 (18)
+V4: (3 aum, 6 pb) x 2 (24)
+V5: (1 aum, 1 pb) x 3, 6 pb, (1 aum, 1 pb) x 3, 6 pb (30)
+V6: (1 aum, 2 pb) x 3, 6 pb, (1 aum, 2 pb) x 3, 6 pb (36)
+V7-V10: 36 pb (36)
+V11: 10 pb, (1 aum, 1 pb) x 6, 14 pb (42)
+V12: 11 pb, (2 pb, 1 aum) x 5, 16 pb (47)
+V13-V18: 47 pb (47)
+V19: (5 pb, 1 dism) x 6, 5 pb (41)
+V20: (4 pb, 1 dism) x 6, 5 pb (35)
+V21: (3 pb, 1 dism) x 6, 5 pb (29)
+V22: (2 pb, 1 dism) x 6, 5 pb (23)
+V23: (1 pb, 1 dism) x 6, 5 pb (17)
+V24: 5 dism, 7 pb (12)
+V25: 6 dism (6)

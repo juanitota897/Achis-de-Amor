@@ -1,0 +1,31 @@
+# Capibara — cabeza
+# Designer: Inna Chybinova (@inna_chi_hm)
+# Lenguaje: en
+# Materials: aguja 2.25mm, hilo CYC 2
+
+# Lea the Capybara — Head
+
+HEAD
+
+Rnd 1: 8 sc in magic ring [8]
+Rnd 2: (inc) * 8 times [16]
+Rnd 3: (1 sc, inc) * 8 times [24]
+Rnd 4: (3 sc, inc) * 6 times [30]
+Rnd 5: 2 sc, inc, (4 sc, inc) * 5 times, 2 sc [36]
+Rnd 6: (5 sc, inc) * 6 times [42]
+Rnd 7: 3 sc, inc, (6 sc, inc) * 5 times, 3 sc [48]
+Rnd 8: (7 sc, inc) * 6 times [54]
+Rnds 9-12: 54 sc [54]
+Rnd 13: 4 sc, inc, (8 sc, inc) * 5 times, 4 sc [60]
+Rnds 14-18: 60 sc [60]
+Rnd 19: (9 sc, inc) * 6 times [66]
+Rnds 20-23: 66 sc [66]
+Rnd 24: (9 sc, dec) * 6 times [60]
+Rnd 25: (3 sc, dec) * 12 times [48]
+Rnd 26: 3 sc, dec, (6 sc, dec) * 5 times, 3 sc [42]
+Rnd 27: (5 sc, dec) * 6 times [36]
+Rnd 28: 2 sc, dec, (4 sc, dec) * 5 times, 2 sc [30]
+Rnd 29: (3 sc, dec) * 6 times [24]
+Rnd 30: (2 sc, dec) * 6 times [18]
+Rnd 31: (1 sc, dec) * 6 times [12]
+Rnd 32: 6 dec [6]

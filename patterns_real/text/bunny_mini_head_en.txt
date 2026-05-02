@@ -1,0 +1,19 @@
+# Conejo miniatura — cabeza
+# Designer: Happy Crochet, Etc
+# Lenguaje: en
+# Materials: aguja 1.5mm, hilo CYC 1
+
+# Mini Bunny — Head
+
+HEAD
+
+Rnd 1: 6 sc in magic ring [6]
+Rnd 2: 6 inc [12]
+Rnd 3: (1 sc, inc) * 6 [18]
+Rnd 4: (2 sc, inc) * 6 [24]
+Rnd 5: (3 sc, inc) * 6 [30]
+Rnds 6-10: 30 sc [30]
+Rnd 11: (3 sc, dec) * 6 [24]
+Rnd 12: (2 sc, dec) * 6 [18]
+Rnd 13: (1 sc, dec) * 6 [12]
+Rnd 14: 6 dec [6]

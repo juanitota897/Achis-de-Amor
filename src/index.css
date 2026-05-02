@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Achis de Amor palette — tonos cálidos suaves */
+    --background: 47 60% 95%;       /* cream-50 */
+    --foreground: 25 35% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 25 35% 15%;
+    --primary: 18 45% 45%;          /* terracotta-500 — más warm */
+    --primary-foreground: 47 60% 97%;
+    --secondary: 47 35% 90%;
+    --secondary-foreground: 25 35% 15%;
+    --muted: 47 30% 92%;
+    --muted-foreground: 25 15% 45%;
+    --accent: 205 20% 78%;          /* sky-300 — azul polvoriento */
+    --accent-foreground: 25 35% 15%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 47 25% 85%;
+    --input: 47 25% 85%;
+    --ring: 18 45% 45%;
+    --radius: 0.625rem;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'DM Serif Display', Georgia, serif;
+  }
+}

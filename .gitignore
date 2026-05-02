@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-*
+*.local
+*.tsbuildinfo
+vite.config.*.timestamp-*.mjs
+vite.config.d.ts
+vite.config.js
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project-internal docs (planning files outside the app)
+# Comment these out if you want them in version control
+# 00_definiciones_producto.md
+# 01_motor_matematico.md
+# 02_arquitectura_sitio.md
+# 03_stack_tecnico.md
+# 04_roadmap.md
+
+# Real patterns folder — keep PDFs and images local (they're paid content)
+# but commit the README and the text examples extracted from the app's
+# built-in /src/data/realPatterns.ts (those are already public).
+patterns_real/pdf/
+patterns_real/images/
+
+# Cloudflare Worker local secrets (the real ones live in `wrangler secret put`)
+worker/.dev.vars
+worker/node_modules/

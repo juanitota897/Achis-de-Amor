@@ -38,8 +38,8 @@ export { SHAPE_BUILDERS, SHAPE_LABELS, buildShape } from './shapes';
 export type { ShapeRound, ShapeBuilder } from './shapes';
 
 // Scaler
-export { scaleByMaterials, scaleByCount, suggestMaterialsForSize } from './scaler';
-export type { ScaleByMaterialsResult } from './scaler';
+export { scaleByMaterials, scaleByCount, suggestMaterialsForSize, redimensionPattern } from './scaler';
+export type { ScaleByMaterialsResult, RedimensionInput, RedimensionResult } from './scaler';
 
 // Templates
 export {

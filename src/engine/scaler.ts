@@ -196,3 +196,98 @@ export function scaleByCount(
 
 // re-export generator for convenience when scaling generates a fresh pattern
 export { generatePattern };
+
+/**
+ * Strategy C — REDIMENSIONAR: change size AND change materials in one step.
+ *
+ * Use case: "tengo un hipopótamo de 33cm hecho con aguja 3.25mm y hilo de
+ * 8 hebras. Quiero el mismo, pero de 50cm con aguja 2.25mm y hilo de 6 hebras."
+ *
+ * Math:
+ *   Each stitch in the new gauge is `g_new` mm wide; in the old gauge it
+ *   was `g_old` mm wide. To produce a piece of `target_cm` with the new
+ *   gauge starting from a pattern that produced `current_cm` with the old
+ *   gauge, we need:
+ *
+ *     stitch_factor = (target_cm / current_cm) × (g_old.width / g_new.width)
+ *
+ *   The first term is the size change. The second compensates for the new
+ *   yarn making smaller (or bigger) stitches per unit length.
+ *
+ * Returns the rescaled pattern with new materials embedded.
+ */
+export interface RedimensionInput {
+  /** Pattern as it is, in the original materials. */
+  pattern: Pattern;
+  /** Materials the pattern was originally crocheted with. */
+  currentMaterials: MaterialSpec;
+  /** Final size achieved with currentMaterials, in centimetres (height). */
+  currentSizeCm: number;
+  /** Materials the user will actually crochet with this time. */
+  newMaterials: MaterialSpec;
+  /** Final size desired in centimetres (height). */
+  targetSizeCm: number;
+}
+
+export interface RedimensionResult {
+  pattern: Pattern;
+  /** The factor that was applied to every stitch count and round count. */
+  scaleFactor: number;
+  /** Breakdown of where the factor came from (for UI display). */
+  breakdown: {
+    sizeFactor: number;       // target / current
+    gaugeFactor: number;      // gOld.width / gNew.width
+    combined: number;         // sizeFactor × gaugeFactor
+  };
+  estimatedSize: { height: number; width: number };
+  estimatedYarnGrams: number;
+}
+
+export function redimensionPattern(input: RedimensionInput): RedimensionResult {
+  const { pattern, currentMaterials, currentSizeCm, newMaterials, targetSizeCm } = input;
+
+  const gOld = computeGauge(currentMaterials, 'sc');
+  const gNew = computeGauge(newMaterials, 'sc');
+
+  const sizeFactor = targetSizeCm / Math.max(0.1, currentSizeCm);
+  const gaugeFactor = gOld.width / Math.max(0.1, gNew.width);
+  const combined = sizeFactor * gaugeFactor;
+
+  // Apply the scale factor uniformly to all stitch counts AND round counts.
+  // scaleByCount handles both: it interpolates over the round profile and
+  // multiplies stitch counts by `factor`.
+  const scaled = scaleByCount(pattern, combined);
+
+  // Embed the new materials so the visualizer/PDF reflect them.
+  const newPattern: Pattern = {
+    ...scaled,
+    materials: newMaterials,
+    metadata: {
+      ...scaled.metadata,
+      name: `${pattern.metadata.name} (${currentSizeCm.toFixed(0)}→${targetSizeCm.toFixed(0)}cm)`,
+    },
+  };
+
+  // Re-estimate the resulting size with the new gauge.
+  const piece = newPattern.pieces[0];
+  let estHeight = 0;
+  let estWidth = 0;
+  let totalStitches = 0;
+  if (piece) {
+    estHeight = piece.rounds.length * gNew.height / 10;
+    const maxCount = Math.max(...piece.rounds.map((r) => r.stitchCount));
+    estWidth = (maxCount * gNew.width) / Math.PI / 10;
+    totalStitches = piece.rounds.reduce((s, r) => s + r.stitchCount, 0);
+  }
+  const grams = Math.ceil(
+    totalStitches * (YARN_WEIGHTS[newMaterials.yarnCyc]?.gramsPerStitch ?? 0.22),
+  );
+
+  return {
+    pattern: newPattern,
+    scaleFactor: combined,
+    breakdown: { sizeFactor, gaugeFactor, combined },
+    estimatedSize: { height: estHeight, width: estWidth },
+    estimatedYarnGrams: grams,
+  };
+}
